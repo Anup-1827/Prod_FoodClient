@@ -1,0 +1,62 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --voilet: #192f60;
+  --grey:#8c96ab;
+}
+
+/* Start of Common Classes */
+/* End of Common Classes */
+/* Start of Card */
+.card {
+  width: 30%;
+  /* border: 1px solid #000000; */
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.938rem;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.card a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.card .image {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.card .mealInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0.938rem;
+}
+
+.card .mealInfo h3 {
+  color: var(--voilet);
+}
+
+.card .mealInfo h4 {
+  color: var(--grey);
+}
+
+/* End of Card */
+/*# sourceMappingURL=MealType.css.map */

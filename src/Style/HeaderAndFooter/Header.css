@@ -1,0 +1,77 @@
+.Header {
+  background-color: #ce0505;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.313rem 0.625rem;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header h1 {
+  background-color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ce0505;
+  border-radius: 50%;
+  padding: 0.625rem 1.563rem;
+}
+
+/* Start of Login and Create Account */
+.Header .loginAndAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.625rem;
+}
+
+.Header .loginAndAccount .login {
+  color: #ffffff;
+  margin: 0 0.625rem;
+  padding-top: 0.438rem;
+}
+
+.Header .loginAndAccount .createAcc {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 0.438rem 0.938rem;
+  border-radius: 10px;
+}
+
+.Header .loginAndAccount .com {
+  color: #ffffff;
+  margin: 0.625rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* End of Login and Create Account */
+@media (max-width: 441px) {
+  .Header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Header h1 {
+    font-size: 1.875rem;
+    padding: 0.625rem 1.25rem;
+  }
+  .Header .loginAndAccount {
+    padding: 0;
+  }
+  .Header .loginAndAccount .login {
+    font-size: 0.938rem;
+  }
+  .Header .loginAndAccount .createAcc {
+    font-size: 0.938rem;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

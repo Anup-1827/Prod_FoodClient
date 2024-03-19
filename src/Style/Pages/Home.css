@@ -1,0 +1,160 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+:root {
+  --voilet: #192f60;
+  --grey:#8c96ab;
+}
+
+/* Start of Common Class */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* End of Common Class */
+/* Start of Header */
+.header {
+  background-image: url("../../Assets/Images/Zomato.png");
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+/* Start of Login and Create Account */
+.header .loginAndAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.625rem;
+}
+
+.header .loginAndAccount .login {
+  color: #ffffff;
+  margin: 0 0.625rem;
+  padding-top: 0.438rem;
+}
+
+.header .loginAndAccount .login:hover {
+  color: red;
+}
+
+.header .loginAndAccount .createAcc {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 0.438rem 0.938rem;
+  border-radius: 10px;
+}
+
+.header .loginAndAccount .createAcc:hover {
+  background-color: red;
+  border: none;
+}
+
+.header .loginAndAccount .com {
+  color: #ffffff;
+  margin: 0.625rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+/* End of Login and Create Account */
+/* Start of Logo and Search */
+.header .logoAndSearch {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logoAndSearch .logo {
+  background-color: #ffffff;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: red;
+  border-radius: 50%;
+  padding: 0.75rem 1.563rem;
+}
+
+.header .logoAndSearch .about {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.header .logoAndSearch .searchBox {
+  width: 50%;
+  /* margin: auto    ; */
+}
+
+.header .logoAndSearch .searchBox .searchCity {
+  width: 30%;
+  padding: 0.625rem;
+  border: none;
+  margin-right: 0.625rem;
+}
+
+.header .logoAndSearch .searchBox .searchHotels {
+  width: 60%;
+  padding: 0.625rem;
+  border: none;
+}
+
+/* End of Logo and Search */
+/* End of Header */
+/* Start of Meal Type */
+.info {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info .quickSearchInfo {
+  margin-top: 0.625rem;
+}
+
+.info .quickSearchInfo .quickSearch {
+  color: var(--voilet);
+  font-weight: bolder;
+}
+
+.info .quickSearchInfo .discover {
+  color: var(--grey);
+  font-weight: bold;
+}
+
+.info .mealtype {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* End of Meal Type */
+/*# sourceMappingURL=Home.css.map */

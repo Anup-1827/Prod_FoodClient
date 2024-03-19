@@ -1,0 +1,391 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+/* Start of Meal*/
+.Meal {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.Meal .heading {
+  color: #192f60;
+  margin-top: 1.25rem;
+}
+
+.Meal .Filter {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 0.625rem;
+  padding: 0.625rem;
+}
+
+.Meal .Filter .FilterBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Meal .Filter .FilterBar h2, .Meal .Filter .FilterBar svg {
+  margin-top: 0.625rem;
+  color: #192f60;
+  cursor: pointer;
+}
+
+.Meal .Filter .FilterContent .DivSelectLocation {
+  margin-top: 0.625rem;
+}
+
+.Meal .Filter .FilterContent .DivSelectLocation .LblLocation {
+  color: #192f60;
+  margin-right: 2.5rem;
+  font-weight: bold;
+}
+
+.Meal .Filter .FilterContent .DivSelectLocation .DrdSelectLoc {
+  color: grey;
+  padding: 0.625rem;
+  border: 1px solid grey;
+  border-radius: 0.188rem;
+}
+
+.Meal .Filter .FilterContent .DivCuisineAndCost {
+  margin-top: 1.563rem;
+}
+
+.Meal .Filter .FilterContent .DivCuisineAndCost .LblCuisnieAndCost {
+  display: block;
+  color: #192f60;
+  font-weight: bold;
+}
+
+.Meal .Filter .FilterContent .DivCuisineAndCost .RadCuisineAndCost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Meal .Filter .FilterContent .DivCuisineAndCost .RadCuisineAndCost div {
+  width: 50%;
+  margin: 0.313rem 0;
+}
+
+.Meal .Filter .FilterContent .DivCuisineAndCost .RadCuisineAndCost div label {
+  font-size: 0.938rem;
+  color: #192f60;
+}
+
+.Meal .Menu {
+  margin-top: 0.625rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.625rem;
+  margin-bottom: 3.125rem;
+  cursor: pointer;
+}
+
+.Meal .Menu a {
+  text-decoration: none;
+}
+
+.Meal .Menu .menuHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.Meal .Menu .menuHeader .menuImg img {
+  width: 9.375rem;
+  border-radius: 1.25rem;
+}
+
+.Meal .Menu .menuHeader .resturantName {
+  padding: 0 1.25rem;
+}
+
+.Meal .Menu .menuHeader .resturantName h2, .Meal .Menu .menuHeader .resturantName h4, .Meal .Menu .menuHeader .resturantName p {
+  color: #192f60;
+}
+
+.Meal .Menu .menuHeader .resturantName p {
+  font-size: 0.938rem;
+}
+
+.Meal .Menu .menuInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.Meal .Menu .menuInfo .Cuisine {
+  width: 10.625rem;
+}
+
+.Meal .Menu .menuInfo p {
+  color: #192f60;
+}
+
+.Meal .Pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 1.25rem;
+  list-style-type: none;
+  margin-bottom: 1.25rem;
+}
+
+.Meal .Pagination a {
+  color: #192f60;
+  border: 1px solid #192f60;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.188rem 0.625rem;
+  margin: 0.625rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.Meal .Pagination a:hover {
+  background-color: grey;
+  color: #ffffff;
+}
+
+.Meal .Pagination .selected a {
+  background-color: grey;
+  color: #ffffff;
+}
+
+/* End of Meal*/
+@media (min-width: 500px) {
+  .Pagination {
+    list-style-type: none;
+  }
+  .Pagination a {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0.438rem 0.938rem !important;
+    margin: 0.625rem !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .Meal .Content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[12];
+        grid-template-columns: repeat(12, 1fr);
+    -ms-grid-rows: auto auto 6.25rem;
+        grid-template-rows: auto auto 6.25rem;
+    grid-gap: 20px;
+  }
+  .Meal .Content .Filter {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 11;
+    grid-row: 1/12;
+    margin-bottom: 0.625rem;
+    padding-left: 1.25rem;
+  }
+  .Meal .Content .Filter .FilterBar svg {
+    display: none;
+  }
+  .Meal .Content .Filter .FilterContent {
+    display: block;
+  }
+  .Meal .Content .Filter .FilterContent .DrdSelectLoc {
+    margin-top: 0.938rem;
+    width: 70%;
+  }
+  .Meal .Content .Filter .FilterContent .RadCuisineAndCost {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .Meal .Content .Filter .FilterContent .RadCuisineAndCost div {
+    width: 100%;
+  }
+  .Meal .Content .MenuItems {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 8;
+    grid-column: 4/12;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    grid-row: 1/11;
+  }
+  .Meal .Content .MenuItems .Menu {
+    padding: 1.25rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .menuImg img {
+    width: 100%;
+    border-radius: 1.25rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .resturantName {
+    padding: 1.25rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .resturantName h2 {
+    font-size: 1.875rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .resturantName h4 {
+    font-size: 1.25rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .resturantName p {
+    font-size: 0.938rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .resturantName h2, .Meal .Content .MenuItems .Menu .menuHeader .resturantName h4, .Meal .Content .MenuItems .Menu .menuHeader .resturantName p {
+    color: #192f60;
+  }
+  .Meal .Content .MenuItems .Menu .menuHeader .resturantName p {
+    font-size: 0.938rem;
+  }
+  .Meal .Content .MenuItems .Menu .menuInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .Meal .Content .MenuItems .Menu .menuInfo .Cuisine {
+    width: 40%;
+  }
+  .Meal .Content .MenuItems .Menu .menuInfo p {
+    color: #192f60;
+  }
+  .Meal .Content .Pagination {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 8;
+    grid-column: 4/12;
+    -ms-grid-row: 11;
+    -ms-grid-row-span: 1;
+    grid-row: 11/12;
+    padding-bottom: 1.875rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .MenuItems .Menu .menuHeader .resturantName {
+    padding: 1.25rem;
+  }
+  .MenuItems .Menu .menuHeader .resturantName h2 {
+    font-size: 1.25rem;
+  }
+  .MenuItems .Menu .menuHeader .resturantName h4 {
+    font-size: 1.125rem;
+  }
+  .MenuItems .Menu .menuHeader .resturantName p {
+    font-size: 0.938rem;
+  }
+  .MenuItems .Menu .menuInfo .Cuisine {
+    font-size: 0.938rem;
+  }
+  .MenuItems .Menu .menuInfo p {
+    font-size: 0.938rem;
+  }
+}
+/*# sourceMappingURL=CommonItems.css.map */

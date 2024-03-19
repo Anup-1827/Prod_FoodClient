@@ -1,0 +1,16 @@
+@mixin d-flex($jC, $aI, $fd, $fw){
+    display: flex;
+    justify-content: $jC;
+    align-items: $aI;
+    flex-direction: $fd;
+    flex-wrap: $fw;
+}
+
+
+@mixin d-grid(){
+    display: grid;
+}
+
+@mixin box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

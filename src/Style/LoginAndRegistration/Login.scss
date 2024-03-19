@@ -1,0 +1,33 @@
+@import '../mixin';
+@import '../color';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginForm{
+    color: $voilet;
+    div{
+        display: block;
+        margin-bottom: 0.625rem; 
+        margin-top: 0.625rem;
+    }
+    input{
+        padding: 0.625rem;
+        width: 80%;
+    }
+    .btn{
+        margin-top: 0.625rem !important;
+        display: block;
+        padding: 0.625rem;
+        background-color: $voilet;
+        border: 1px solid $voilet;
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    
+}
